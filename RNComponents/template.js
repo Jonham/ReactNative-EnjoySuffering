@@ -28,6 +28,6 @@ const styles = StyleSheet.create({
     },
     title__text: {
         color: "black",
-        fontSize: "20"
+        fontSize: 20
     }
 });

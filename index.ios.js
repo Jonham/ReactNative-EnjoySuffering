@@ -12,17 +12,16 @@ import {
   View
 } from 'react-native';
 
-import {
-    PageWelcome
-} from './RNComponents/PageWelcome/PageWelcome';
+import PageWelcome from './RNComponents/PageWelcome/PageWelcome';
 
-export default class EnjoySuffering extends Component {
+
+export default class ReactNativeEnjoySuffering extends Component {
   render() {
       let Greetings = "Welcome to Jonham's APP.";
 
     return (
       <View style={styles.container}>
-          <PageWelcome Greetings={Greetings} />
+          <PageWelcome Greetings={ Greetings } />
       </View>
     );
   }
@@ -37,4 +36,4 @@ const styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('EnjoySuffering', () => EnjoySuffering);
+AppRegistry.registerComponent('ReactNativeEnjoySuffering', () => ReactNativeEnjoySuffering);
